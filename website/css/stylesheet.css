@@ -1,13 +1,13 @@
-* {
+/* {
    border: 1px dotted blue;
 }
-
+*/
 #header {
     background-color: #191919;
     border: 1px solid white;
     width: 110%;
     height: 50px;
-    position: fixed;
+    clear: both;
     margin-top: -10px;
     margin-left: -9px;
 }
@@ -23,7 +23,6 @@
 
 #content {
     background-color: #F9F9F9;
-
     border: 1px solid white;
     width: 85%;
     height: 1000px;
@@ -43,8 +42,10 @@
 #header_header {
     color:white;
     font-family: GeosansLight, sans-serif;
+    font-size: 2.5em;
     margin-left: 10px;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 #content_header {
@@ -52,23 +53,25 @@
     font-family: GeosansLight, sans-serif;
     margin-left: 10px;
     margin-top: 20px;
+    font-size: 3em;
 }
 
 #content_text {
     color:black;
     font-family: GeosansLight, sans-serif;
     margin-left: 25px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .sidebar_img_top {
-    margin-top: 20px;
+    margin-top: -25px;
 }
 
 #sidebar_img {
     width: 100px;
     height: 50px;
     margin-left: 10px;
+    box-shadow: 3px 3px 5px darkgrey;
 }
 
 #content_img_thread {
@@ -77,4 +80,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-
