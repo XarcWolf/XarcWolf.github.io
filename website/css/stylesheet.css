@@ -32,11 +32,13 @@
 }
 
 #footer {
-    background-color: #F9F9F9;
+    background-color: #191919;
     border: 1px solid white;
-    width: 100%;
+    width: 110%;
     height: 50px;
     clear: both;
+    margin-top: -10px;
+    margin-left: -9px;
 }
 
 #header_header {
@@ -54,6 +56,8 @@
     margin-left: 10px;
     margin-top: 20px;
     font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px darkgrey;
 }
 
 #content_text {
@@ -61,6 +65,7 @@
     font-family: GeosansLight, sans-serif;
     margin-left: 25px;
     font-size: 1.5em;
+    text-shadow: 2px 2px 5px darkgrey;
 }
 
 .sidebar_img_top {
@@ -74,9 +79,25 @@
     box-shadow: 3px 3px 5px darkgrey;
 }
 
-#content_img_thread {
-    width: 90%;
+#content_img_trollface {
+    width: 500px;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 3px 3px 5px darkgrey;
+}
+
+#footer_text {
+    color:white;
+    font-family: GeosansLight, sans-serif;
+    margin-left: 10px;
+    margin-top: 17px;
+    font-size: 1em;
+}
+
+#content_img_homepage {
+    display: block;
+    margin-left: 15px;
+    width: 700px;
 }
