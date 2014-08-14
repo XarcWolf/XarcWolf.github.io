@@ -65,14 +65,14 @@ body {
     margin:0;
     padding:0;
     text-align:center;
-    font-size: 45px;
+    font-size: 2.9em;
     font-family: GeoSansLight, sans-serif;
     font-smooth: always;
 }
 
 .main_contentarea_text {
     margin: 15px auto;
-    font-size: 30px;
+    font-size: 1.7em;
     font-family: GeoSansLight, sans-serif;
     width:750px;
     text-align: center;
@@ -93,15 +93,25 @@ body {
 #main_contentarea_portfolio_text {
     color: white;
     text-shadow: 0px 0px 0px black;
-    font-size: 25px;
 }
 
 #main_footer_text {
     margin:0;
     padding:0px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: GeoSansLight, sans-serif;
     color: white;
+}
+
+.main_header_title {
+  font-size: 30px;
+  font-family: Good Times, sans-serif;
+  color: white;
+  text-shadow: 3.5px 6.062px 5px rgb( 0, 0, 0 );
+  margin:0;
+  padding:0;
+  padding-top:13px;
+  padding-left:10px;
 }
 
 
