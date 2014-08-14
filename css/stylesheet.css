@@ -1,0 +1,107 @@
+body {
+   margin:0;
+    padding:0;
+}
+
+.main_header {
+    background-color: #171717;
+    width:100%;
+    height:60px;
+}
+
+.main_contentarea_image {
+    background-color: dimgrey;
+    width:100%;
+    height:700px;
+    margin:0;
+    padding:0;
+}
+
+
+.main_contentarea_image_overlay {
+    background-color: black;
+    opacity: 0.85;
+    width:100%;
+    height: 60px;
+    position: relative;
+    margin:0;
+    padding:0;
+    top:-65px;
+}
+
+
+.main_contentarea_about {
+    background-color: #F9F9F9;
+    width:100%;
+    height:600px;
+    box-shadow:inset 0 0 10px 1px #000000;
+    padding-top: 35px;
+}
+
+.main_contentarea_portfolio {
+    background-color: #171717;
+    width:100%;
+    height:600px;
+    padding-top: 35px;
+}
+
+.main_contentarea_contact {
+    background-color: #F9F9F9;
+    width:100%;
+    height:400px;
+    box-shadow:inset 0 0 10px 1px #000000;
+    padding-top: 35px;
+}
+
+.main_footer {
+    background-color: #171717;
+    width:100%;
+    height:30px;
+    padding-top:15px;
+    padding-left: 10px;
+}
+
+.main_contentarea_title {
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 45px;
+    font-family: GeoSansLight, sans-serif;
+    font-smooth: always;
+}
+
+.main_contentarea_text {
+    margin: 15px auto;
+    font-size: 30px;
+    font-family: GeoSansLight, sans-serif;
+    width:750px;
+    text-align: center;
+}
+
+#main_contentarea_about_title {
+}
+
+#main_contentarea_about_text {
+    color: black;
+    text-shadow: 0px 0px 0px black;
+}
+
+#main_contentarea_portfolio_title {
+    color:white;
+}
+
+#main_contentarea_portfolio_text {
+    color: white;
+    text-shadow: 0px 0px 0px black;
+    font-size: 25px;
+}
+
+#main_footer_text {
+    margin:0;
+    padding:0px;
+    font-size: 20px;
+    font-family: GeoSansLight, sans-serif;
+    color: white;
+}
+
+
