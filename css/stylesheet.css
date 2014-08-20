@@ -29,6 +29,8 @@ body {
     width:100%;
     min-height:300px;
     min-width:750px;
+    margin-bottom:-5px;
+    padding:0;
 }
 
 #main_contentarea_about {
